@@ -5,8 +5,8 @@ export function App() {
     <>
       <h1>Hello World</h1>
       <p>Matheus here!</p>
-      <Post />
-      <Post />
+      <Post author='Matheus Florêncio' content='Esse é o Post do Matheus' />
+      <Post author='Diego Fernandes' content='Esse é o Post do Diego' />
     </>
   );
 }
