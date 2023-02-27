@@ -3,6 +3,7 @@ import { Post } from './Post';
 
 import './global.css';
 import styles from './App.module.css';
+import { Sidebar } from './components/Sidebar';
 
 export function App() {
   return (
@@ -10,7 +11,7 @@ export function App() {
       <Header />
 
       <div className={styles.wrapper}>
-        <aside>sidebar</aside>
+        <Sidebar />
         <main>
           <Post author='Matheus Florêncio' content='Esse é o Post do Matheus' />
           <Post author='Diego Fernandes' content='Esse é o Post do Diego' />
