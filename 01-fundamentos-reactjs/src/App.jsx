@@ -7,7 +7,7 @@ import { Post } from './components/Post';
 
 export function App() {
   return (
-    <>
+    <div>
       <Header />
 
       <div className={styles.wrapper}>
@@ -17,6 +17,6 @@ export function App() {
           <Post author='Diego Fernandes' content='Esse é o Post do Diego' />
         </main>
       </div>
-    </>
+    </div>
   );
 }
